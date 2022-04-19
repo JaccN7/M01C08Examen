@@ -1,0 +1,121 @@
+/* ESTE ES MI CSS */
+
+/* PALETA DE COLORES */
+:root {
+    --color-nav: #012C56;
+    --color-body: #E7F7FB;
+    --color-fontEnlHov: #79B4EC;
+    --color-fontEnlace: #ffffff;
+    --color-fontEnlNot: #000000;
+    --color-baseCard: #E7F7FB;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: var(--color-body);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* ESTILO PARA MENÚ DE NAVEGACIÓN*/
+.nav {
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color: var(--color-nav);
+    color: var(--color-fontEnlace);
+    opacity: 0.7;
+}
+
+.tamSlider{
+    width: 100% !important;
+    height: 55% !important;
+}
+
+.slider {
+    background-color: var(--color-fontEnlNot);
+    opacity: 0.6;
+    padding: 1%;
+}
+
+/* ESTILOS PARA LOS HIPERVINCULOS */
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.enlace,
+.enlace a {
+    color: var(--color-fontEnlace);
+}
+
+.enlace a:hover {
+    font-weight: bold;
+    color: var(--color-fontEnlHov);
+}
+
+.noticia,
+.noticia a {
+    color: var(--color-fontEnlNot);
+}
+
+.noticia a:hover {
+    font-weight: bold;
+    color: var(--color-fontEnlHov);
+}
+/* FIN ESTILOS HIPERVINCULOS*/
+
+.centrar {
+    text-align: center;
+}
+
+.resume {
+    width: 100%;
+    padding: 0.5% 2.5% 0.5% 2.5%;
+}
+
+.justify {
+    text-align: justify;
+}
+/* ESTILOS PARA LAS IMAGENES */
+/* ESTILOS PARA LAS IMAGENES DE LAS NOTICIAS */
+.img {
+    height: 350PX;
+    width: 95%;
+    object-fit: contain;
+}
+
+/* ESTILOS PARA LAS IMAGENES DE LA HISTORIA */
+.imgHis {
+    margin: 1%;
+    width: 30%;
+    height: 30%;
+}
+
+.imgHisLeft{
+    float: left;
+}
+
+.imgHisRight{
+    float: right;
+}
+/* FIN ESTILOS IMAGENES */
+
+
+hr {
+    background-color: var(--color-fontEnlace);
+}
+
+/* ESTILO PARA EL MAPA */
+.map {
+    height: 450px;
+    width: 90%;
+}
+
+footer {
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+    margin-top: 0.5%;
+    background-color: var(--color-nav);
+    color: var(--color-fontEnlace);
+}
